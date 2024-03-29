@@ -3,8 +3,6 @@ import os
 from datetime import datetime
 from tkinter.filedialog import askopenfilename
 
-
-
 blue_back = '\033[46m'
 red = '\033[31m'
 purple = '\033[35m'
