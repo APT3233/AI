@@ -2,7 +2,7 @@ import requests
 import os
 from datetime import datetime
 from tkinter.filedialog import askopenfilename
-import base64, lzma
+
 
 
 blue_back = '\033[46m'
